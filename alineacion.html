@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alineación</title>
+  
+  <!-- Enlace al CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+  <!-- Enlace al CSS personalizado -->
+  <link rel="stylesheet" type="text/css" href="Style.css">
+  
+  <style>
+    /* Estilos para el logo */
+    .navbar-brand img {
+      height: 50px; /* Ajusta esta altura según sea necesario */
+      width: auto; /* Mantiene la proporción */
+    }
+
+    /* Estilos para centrar imágenes */
+    .text-center img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <h1 class="text-center">Rent-A Car</h1>
+        </div>
+        <div class="box" id="box2">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="logo.jpg" alt="Rent-A Car Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Página Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="autos.html">Autos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="mantenimiento.html">Mantenimiento</a>
+                              <a class="dropdown-item" href="montallantas.html">Montallantas</a>
+                              <a class="dropdown-item" href="alineacion.html">Alineación</a>
+                              <a class="dropdown-item" href="balanceo.html">Balanceo</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="box" id="box3">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="alineacion1.jpg" class="img-fluid" alt="Alineación 1">
+                    <div class="text">
+                        <h3>Servicio personalizado</h3>
+                        <p>En Rent-A-Car+, entendemos la importancia de mantener tus vehículos en óptimas condiciones para ofrecerte una experiencia de conducción segura y confortable. Es por eso que ofrecemos un servicio especializado de alineación de autos, diseñado para garantizar que tu flota de vehículos esté siempre en su mejor forma.</p>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <img src="alineacion2.jpg" class="img-fluid" alt="Alineación 2">
+                    <div class="text">
+                        <h3>Técnicas avanzadas</h3>
+                        <p>Nuestro equipo de técnicos altamente calificados utiliza equipos de última generación y técnicas avanzadas para llevar a cabo la alineación precisa de los neumáticos de tus autos. La alineación adecuada no solo mejora la estabilidad y el manejo de los vehículos, sino que también ayuda a prolongar la vida útil de los neumáticos, reduciendo así los costos de mantenimiento a largo plazo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

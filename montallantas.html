@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montallantas</title>
+  
+  <!-- Enlace al CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+  <!-- Enlace al CSS personalizado -->
+  <link rel="stylesheet" type="text/css" href="Style.css">
+	
+	<style>
+	/* Estilos para el logo */
+	.navbar-brand img {
+	  height: 50px; /* Ajusta esta altura según sea necesario */
+	  width: auto; /* Mantiene la proporción */
+	}
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <h1 class="text-center">Rent-A Car</h1>
+        </div>
+        <div class="box" id="box2">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="logo.jpg" alt="Rent-A Car Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Página Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="autos.html">Autos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="mantenimiento.html">Mantenimiento</a>
+                              <a class="dropdown-item" href="montallantas.html">Montallantas</a>
+                              <a class="dropdown-item" href="alineacion.html">Alineación</a>
+                              <a class="dropdown-item" href="balanceo.html">Balanceo</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+           <div class="box" id="box3">
+				<div class="collage">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card">
+								<img src="montallantas1.jpg" class="card-img-top" alt="Montallantas 1">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="montallantas2.jpg" class="card-img-top" alt="Montallantas 2">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="montallantas3.jpg" class="card-img-top" alt="Montallantas 3">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="montallantas4.jpg" class="card-img-top" alt="Montallantas 1">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="montallantas5.jpg" class="card-img-top" alt="Montallantas 2">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="montallantas6.jpg" class="card-img-top" alt="Montallantas 3">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text">
+					<h2>Servicio de Montallantas</h2>
+					<p>Nuestro servicio de montallantas garantiza que tus neumáticos estén en óptimas condiciones para un viaje seguro y suave. Con equipos y técnicos especializados, ofrecemos un servicio rápido y eficiente para que puedas volver a la carretera en poco tiempo.</p>
+					<p>En Rent-A-Car+, ofrecemos un servicio completo de montallantas para mantener tus vehículos en óptimas condiciones en todo momento. Nuestro equipo de expertos está capacitado para manejar una amplia gama de tamaños y tipos de neumáticos, asegurando un montaje preciso y seguro. Ya sea que necesites un cambio de neumáticos de verano a invierno o simplemente una revisión de presión y alineación, estamos aquí para ayudarte. Confía en nosotros para mantener tus neumáticos en perfecto estado y garantizar una conducción segura en cualquier camino.</p>
+				</div>
+			</div>
+        </div>
+    </div>
+
+    <script>
+        // Función para cambiar el contenido del box3
+        function changeContent(content) {
+            document.getElementById('box3').innerHTML = content;
+        }
+    </script>
+
+	<!-- Scripts de Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

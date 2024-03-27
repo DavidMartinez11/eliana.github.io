@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#box1 {
+    flex: 0 0 auto;
+    background-color: #ADD8E6; /* Azul claro */
+	font-size: 30px;
+	text-align: center
+}
+
+.split-container {
+    flex: 1;
+    display: flex;
+}
+
+#box2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #98FB98; /* Verde pastel */
+}
+
+#box3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #AFEEEE; /* Azul pastel */
+}
+
+#box2 > div, #box3 > div {
+    flex: 1;
+}
+
+.menu-option {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#carContent {
+    margin-top: 20px; /* Espacio entre el texto "Audi" y la imagen */
+    font-size: 20px; /* Tamaño del texto "Audi" */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el texto "Audi" */
+}
